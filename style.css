@@ -1,0 +1,110 @@
+body{
+    background-color: black;
+    color: white;
+    text-align: justify;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 19px;
+    border: 10px;
+    overflow: hidden;
+    
+    
+}
+#title{
+    padding: 8px;
+    padding-left: 128px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    position: absolute;
+    right: 0;
+    line-height: 1em;
+    top: 0;
+    padding-top: 10px;
+    padding-right: 150px;
+}
+li{
+    margin: 10px;
+
+}     
+#login a {
+    color: white;
+    border: 2px solid #ff5733; /* Define a cor e a espessura da borda */
+    padding: 10px 20px; /* Adiciona um pouco de espaço ao redor do texto */
+    text-decoration: none; /* Remove o sublinhado padrão do link */
+    border-radius: 18px; /* Opcional: arredonda os cantos da borda */
+
+}
+
+#login a:hover {
+    background-color:  #ff5733; /* Muda a cor de fundo ao passar o mouse */
+    color: white;
+}
+form {
+    padding: 34px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 400px; /* Limita a largura do formulário */
+   
+}.logo {
+        width: 200px; /* Aumente o tamanho da logo conforme necessário */
+        height: auto; /* Mantém a proporção da imagem */
+        position: absolute; /* Permite posicionamento livre */
+        right: 20px; /* Distância da borda direita */
+        top: 20px; /* Distância do topo */
+        z-index: 10; /* Garante que a imagem fique acima de outros elementos */
+}
+input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 26px;
+    font-size: larger;
+    border: none;
+}
+.corT{
+    
+    color: #ff5733; /* Altere para a cor desejada */
+    font-weight: bold; /* Opcional: para deixar o texto em negrito */
+
+}
+button{
+    background-color: #ff5733;
+    padding: 12px 40px;
+    border-radius: 20px;
+    color: white;
+    border: none;
+}
+p {
+    margin: 0; /* Remove as margens padrão */
+    padding: 0; /* Remove o padding padrão */
+    max-width: 600px; /* Limita a largura do parágrafo */
+    text-align: justify; /* Justifica o texto */
+    font-size: 16px;
+}
+.logo {
+    width: 480px; /* Aumente o tamanho da logo conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    position: absolute; /* Permite posicionamento livre */
+    right: 0; /* Distância da borda direita */
+    top: 140px; /* Distância do topo */
+    padding-right: 350px;
+}
+main{
+    padding-left: 120px;
+}
+.register{
+    font-size: 80px;
+}
+.barra {
+    text-decoration: none;
+    color: white;
+}
+footer{
+    text-align: center;
+    font-size: 10px;
+}
+footer p{
+    text-align: center;
+    display: inline;
+}
